@@ -1,0 +1,25 @@
+#include <iostream>
+
+int* fibbonaci(int n) {
+	int* niz = new int[n];
+	for (int i = 0; i <= n; i++) {
+		if (i == 0 || i == 1)
+			niz[i] = 1;
+		else
+			niz[i] = niz[i - 2]+niz[i - 1];
+	}
+	return niz;
+}
+
+int main() {
+
+	int n = 10;
+	int* niz=fibbonaci(n);
+
+	for (int i = 0; i < n; i++) {
+		std::cout << niz[i] << " ";
+	}
+	delete[]niz;
+	niz = nullptr;
+	return 0;
+}
