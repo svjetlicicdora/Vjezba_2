@@ -1,0 +1,6 @@
+﻿  funkcije.cpp
+  main.cpp
+  Generating Code...
+C:\Users\svjet\Desktop\OOP2\Vježba2\Zadatak_2\funkcije.cpp(44,1): warning C4715: 'zadnji': not all control paths return a value
+C:\Users\svjet\Desktop\OOP2\Vježba2\Zadatak_2\funkcije.cpp(39,1): warning C4715: 'prvi': not all control paths return a value
+  Zadatak_2.vcxproj -> C:\Users\svjet\Desktop\OOP2\Vježba2\x64\Debug\Zadatak_2.exe
